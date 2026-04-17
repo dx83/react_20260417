@@ -19,6 +19,9 @@ import Update from './pages/mypage/Update';
 import Updatepw from './pages/mypage/Updatepw';
 import Delete from './pages/mypage/Delete';
 
+
+
+
 const App = () => {
 
   const { logged, token } = useSelector((state) => state.LoggedReducer);
